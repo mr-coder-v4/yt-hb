@@ -18,15 +18,15 @@
     },
     "BOT_TOKEN": {
       "description": "YOUR BOT TOKEN FROM @BotFather",
-      "value": ""
+      "value": "5989031691:AAE2bAYkf8imF855W9QWxyFpX0MAjc6HZyU"
     },
     "API_ID": {
       "description": "YOUR API ID, USE @TeleORG_Bot  ",
-      "value": ""
+      "value": "9544521"
     },
     "API_HASH": {
       "description": "YOUR API HASH, USE @TeleORG_Bot ",
-      "value": ""
+      "value": "5cf32e97dc94510e46524f2286c95116"
     }
   },
   "addons": [
@@ -37,8 +37,8 @@
     "url": "heroku/python"
   }],
   "formation": {
-    "worker": {
-      "quantity": 1,
+    "Bot": {
+      "quantity": 5,
       "size": "free"
     }
   }
